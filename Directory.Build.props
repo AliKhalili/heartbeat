@@ -1,0 +1,17 @@
+<Project>
+
+  <PropertyGroup Label="Targets">
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Configuration">
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TreatingWarningsAsErrors>true</TreatingWarningsAsErrors>
+  </PropertyGroup>
+
+</Project>
