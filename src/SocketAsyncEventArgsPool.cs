@@ -25,7 +25,7 @@ class SocketAsyncEventArgsPool : IDisposable
 
     public void Return(SocketAsyncEventArgs sender)
     {
-        if (_enabled || _disposed || Interlocked.Increment(ref _count) > MaxQueueSize)
+        if (!_enabled || _disposed || Interlocked.Increment(ref _count) > MaxQueueSize)
         {
             Interlocked.Decrement(ref _count);
             sender.Dispose();
