@@ -6,4 +6,6 @@ For a detailed explanation of the concepts, implementation, and performance comp
 
 ## Benchmark
 
-![benchmark](benchmarks\benchmark_chart.png)
+<figure align="center">
+  <img src="./benchmarks/benchmark_chart.png">
+</figure>
